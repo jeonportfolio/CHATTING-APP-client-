@@ -3,6 +3,10 @@
  -> prompt를 통해 이름을 입력받는다.(useEffect)
  -> socket(emit)을 통해 userName 전송 후 콜백함수를 통해 응답확인
  -> 백엔드 io.js에서 userName과 콜백함수의 정보 받음 
+ -> askUserName 함수를 통한 prompt 실행
+
+ ## 백엔드와 서버 연결 
+ -> socket을 이용해 server.js에서 백엔드 주소입력후 연결
 
  ## 로그인 정보 저장 
  

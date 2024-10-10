@@ -30,7 +30,7 @@ function App() {
     
 
   const askUserName = () => {
-       const userName = prompt("당신의 이름을 입력하세요");
+       const userName =prompt("회원번호를 입력하세요");
        console.log("uuu", userName);   
        socket.emit("login", userName, (res) => {
           if(res?.ok){
